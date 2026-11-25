@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MONARCH OF CONQUEST</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><div class="crown">♛</div><div><strong>MONARCH</strong><small>OF CONQUEST</small></div></div>
+      <div class="nav-caption">STORY BIBLE</div>
+      <nav id="navigation">
+        <button class="nav-link active" data-page="overview"><span>⌂</span> Command Centre</button>
+        <button class="nav-link" data-page="character"><span>♛</span> Main Character</button>
+        <button class="nav-link" data-page="characters"><span>♟</span> Characters</button>
+        <button class="nav-link" data-page="villains"><span>☠</span> Villains & Threats</button>
+        <button class="nav-link" data-page="world"><span>🌍</span> Worldbuilding</button>
+        <button class="nav-link" data-page="powers"><span>✦</span> Power System</button>
+        <button class="nav-link" data-page="paths"><span>⟡</span> World Paths</button>
+        <button class="nav-link" data-page="chronicle"><span>◷</span> Story Chronicle</button>
+        <button class="nav-link" data-page="notes"><span>✎</span> Author's Notes</button>
+      </nav>
+      <div class="side-bottom"><div class="saved"><i></i> SAVED IN THIS BROWSER</div><button id="exportBtn" class="utility">⇩ Export backup</button><label class="utility import">⇧ Import backup<input type="file" id="importFile" accept="application/json"></label><small class="version">AUTHOR WORKSPACE · HTML / CSS / JS</small></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div class="mobile-title">♛ MONARCH OF CONQUEST</div><div class="breadcrumb">STORY BIBLE <span>/</span> <b id="crumb">COMMAND CENTRE</b></div><div class="top-actions"><span class="autosave"><i></i> Auto-save on</span><button id="themeToggle" class="theme-toggle">☀️ <span>Light mode</span></button></div></header>
+      <section id="content" class="content"></section>
+      <footer>MONARCH OF CONQUEST <span>◆</span> YOUR WORLD. YOUR RULES.</footer>
+    </main>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
